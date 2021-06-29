@@ -1,0 +1,84 @@
+*{
+
+	box-sizing:border-box;
+}
+
+#driver {
+	font-size:12px;
+	color:#333;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6{
+	width:47%;
+	height:500px;
+	display:inline-block;
+	margin:5% 10% 5% 2%;
+	background-color:#fff;
+	box-shadow: 0 27px 87px rgba(0,0,0,0.37);
+	border-radius:35px;
+	overflow:hidden;
+}
+
+.box2{
+	margin:-50% 0% 6% 51%;
+}
+
+.box3{
+	margin:-3% 5% 7% 2%;
+}
+.box4{
+	margin:-50% 0% 8% 51%;
+	
+}
+.box5{
+	margin:-3% 5% 7% 2%;
+}
+.box6{
+	margin:-50% 0% 8% 51%;
+}
+
+.box-img{
+	float:left;
+	width:45%;
+	height:500px;
+}
+.box-text{
+	width:55%;
+	float:left;
+	padding:10px 30px 20px 35px;
+}
+.box-text h1{
+	font-style:48px;
+	font-weight:bold;
+	color:#2e2e2e;
+	margin-bottom:15px;
+}
+.box-text p{
+	font-size:16px;
+	font-weight:400;
+	color:#2e2e2e;
+	line-height:30px;
+	letter-spacing:0.25px;
+}
+.box-text .social{
+	margin-top:30px;
+}
+.box-text .social a{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	background:linear-gradient(to left ,#f802f5,#1c79e2);
+	border-radius:50%;
+	color:#fff;
+	font-size:28px;
+	text-align:center;
+	line-height:50px;
+	margin:0 15px 0 0;
+	transition:all ease 0.5s;
+}
+
+.box-text .social a:hover{
+	background: #000000025;
+	color:#333;
+	transform:rotate(360deg);
+}

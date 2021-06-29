@@ -1,0 +1,88 @@
+body{
+    background: url(../images/Boat.jpg);
+    background-size: cover;
+}
+
+.login-box{
+    width: 340px;
+    height: 450px;
+    background: rgba(0.5, 0.5, 0.6, 0.6) ;
+    color: #fff;
+    top: 60%;
+    left: 70%;
+    /*position: absolute;*/
+    transform: translate(300%, 0%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    margin:50px;
+
+}
+.profile{
+    width: 140px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+#login h2{
+    margin: 0;
+    padding:20 0 0px;
+    text-align: center;
+    font-size: 25px;
+}
+#login h5{
+    margin: 0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+   
+}
+.login-box input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],input[type="password"],input[type="email"]
+{
+    border:none;
+    border - bottom: 1px solid #fff;
+    Outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height:30px;
+    background:#1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius:20px;
+    
+}
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background:#808080;
+  color: #000;
+}
+.login-box a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+}
+.login-box a:hover
+{
+  color: #FF0000;
+}
+

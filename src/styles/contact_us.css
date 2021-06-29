@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/contact_image.jpg);
+    background-size:cover;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: min-content; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.contact-form{
+    margin-left: 120px;
+    width: 85%;
+    max-width: 500px;
+    background: #f1f1f1;
+    /*position: absolute;
+    top:50%;
+    left: 30%;
+    transform: translate(-50%,23%);*/
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align:center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family:"Montserrat",sans-serif;
+}
+
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 600;
+}
+.contact-form h2{
+    margin-top: 0;
+    font-weight: 300;
+    padding:10 0 0px;
+   
+}
+.contact-form p{
+    margin-top: 0;
+    font-weight: 100;
+    padding:0 0 40px;
+    
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:550;
+}
+.txtb input, txtb textarea{
+    width:100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.btn{
+    display:inline-block;
+    background: #1c8adb;
+    padding: 12px 0;
+    color: #fff;
+    curser: pointer;
+    margin-top:8px;
+    width: 150px;
+    border-radius: 20px;
+} 
+.container
+{
+   width: 100%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   margin-top: 150px;
+}
+.container .contactInfo
+{
+   width: 30%;
+   display: flex;
+   flex-direction:column;
+}
+.container .contactInfo .box
+{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+}
+.container .contactInfo .box .icon
+{
+   min-width: 60px;
+   height: 60px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-size: 22px;
+}
+.container .contactInfo .box .text
+{
+   display: flex;
+   margin-left: 20px;
+   font-size: 16px;
+   color:#fff;
+   flex-direction: column;
+   font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+   font-weight: 700;
+   color: #fff;
+}
+
+.contactInfo{
+    color: #ffffff;
+}
